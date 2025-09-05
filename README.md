@@ -5,5 +5,5 @@
 - С++
 - CMake
 - Qt Widgets
-- MySQL Connector/C++
+- MySQL Connector/C++.
 Програма підключається до відаленої бази даних на платформі Aiven
