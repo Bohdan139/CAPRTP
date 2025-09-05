@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ResultForm</class>
+ <widget class="QMainWindow" name="ResultForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>855</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <column>
+       <property name="text">
+        <string>d, мм</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>t, мм</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>S,мм/об</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nb, об/хв</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Vd, м/хв</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>M, Нм</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Po, Н</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>To, хв</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Повернутися</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>855</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
